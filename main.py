@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 
-data=pd.read_csv('final_data.csv')
+data=pd.read_csv('final_data1.csv')
 st.markdown('# COMPTYRE \n ## Compare the Tyres here!!!!! \n ### find your perfect one')
 
 veh=data['Car Model'].unique()
